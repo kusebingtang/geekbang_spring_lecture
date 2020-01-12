@@ -1,5 +1,8 @@
 package org.geekbang.thinking.in.spring.ioc.overview.domain;
 
+import org.geekbang.thinking.in.spring.ioc.overview.annotation.Super;
+
+@Super
 public class SuperUser extends User {
 
     private String address;
